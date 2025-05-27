@@ -1,12 +1,12 @@
 param(
     [Parameter(Mandatory = $true)]
-    [string]$TenantDomain, # e.g. tenant.console.ves.volterra.io
+    [string]$TenantDomain, playground.console.ves.volterra.io
 
     [Parameter(Mandatory = $true)]
-    [string]$ApiToken, # e.g. zQCKkBwWU9/k4ep7BAg=
+    [string]$ApiToken, WdVUVVVEfmEnkBftTkX0D7aNKY8=
 
     [ValidateSet("Table", "CSV", "Text")]
-    [string]$OutputFormat = "Table"
+    [string]$OutputFormat = "CSV"
 )
 
 # Static API path
